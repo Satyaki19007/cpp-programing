@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+ int main(){
+int n;
+cout<<" enter a number";
+cin>>n;
+cout << "\nmultiplication table of"<< n <<":\n";
+for(int i = 1; i<= 10;++i){
+
+cout<< n << "*" << i<< "=" << i << endl;
+}
+return 0;
+}
